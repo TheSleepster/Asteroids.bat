@@ -8,6 +8,7 @@ REM cl %CommonCompilerFlags% \Quasar\code\*.cpp /I%CommonIncludePaths% /MD /link
 
 REM 64-bit building
 
+mkdir ..\build
 pushd ..\build
 cl %CommonCompilerFlags% \Quasar\code\*.cpp /I%CommonIncludePaths% /MD /link /MACHINE:X64 /OUT:"Quasar.exe" %CommonLinkerFlags%
 popd
