@@ -6,7 +6,7 @@ you can find information about how to use Raylib at
 
 and more importantly
 
--https://www.raylib.com/
+- https://www.raylib.com/
 
 There are only 2 dependancies, everything else comes with the repo
 
